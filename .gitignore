@@ -6,3 +6,6 @@ node_modules
 .env
 .next
 .vercel
+/.vscode
+.env.local
+.env.example
