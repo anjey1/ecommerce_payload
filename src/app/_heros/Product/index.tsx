@@ -8,9 +8,7 @@ import { Price } from '../../_components/Price'
 
 import classes from './index.module.scss'
 
-export const ProductHero: React.FC<{
-  product: Product
-}> = ({ product }) => {
+export const ProductHero: React.FC<{ product: Product }> = ({ product }) => {
   const { title, categories, meta: { image: metaImage, description } = {} } = product
 
   return (
